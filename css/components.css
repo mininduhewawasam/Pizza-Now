@@ -1,0 +1,29 @@
+.quantity {
+    width: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.change-qty-btn {
+    width: 40px;
+    border-radius: 4px;
+    border: 2px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.add-to-cart-btn {
+    margin-left: 25px;
+}
+
+.btn-primary {
+    background-color: #e31836;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover, .btn:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: white;
+    background-color: #0079ae;
+}

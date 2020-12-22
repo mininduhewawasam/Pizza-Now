@@ -1,0 +1,16 @@
+.btn-secondary {
+    background-color: white;
+    color: black;
+}
+
+h2 {
+  color: #e31836;
+}
+
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle{
+    color: white;
+    background-color: #0079ae;
+}

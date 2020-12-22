@@ -1,0 +1,52 @@
+.card-title {
+    margin-top: 5px;
+}
+
+.card-body {
+    padding: 0.25rem;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+.card-deck{
+    margin-top: 10px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: .5rem;
+}
+
+.deal-image {
+    height: 280px;
+}
+
+.pizza-image {
+    height: 330px;
+}
+
+.side-image {
+    height: 200px;
+}
+
+.deal-price .deal-button {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.description {
+    height: 60px;
+}
+
+.pizza-description {
+    height: 110px;
+}
+
+/*.btn-add-pizza {*/
+/*    margin-top: 100px;*/
+/*}*/
+
+.pizza-btn-section {
+    height: 50px;
+}
